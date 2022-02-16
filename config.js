@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Yuk tidur, Jaga Kesehatan',
 
   // Layout
-  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
@@ -54,14 +54,14 @@ const CONFIG = {
     {
       id: '1',
       name: 'Youtube',
-      icon: 'ri-youtube-line',
+      icon: 'youtube',
       link: 'https://youtube.com/',
     },
     {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://gmail.com/',
     },
     {
       id: '3',
