@@ -54,7 +54,7 @@ const CONFIG = {
     {
       id: '1',
       name: 'Youtube',
-      icon: '<i class="ri-youtube-line"></i>',
+      icon: 'ri-youtube-line',
       link: 'https://youtube.com/',
     },
     {
