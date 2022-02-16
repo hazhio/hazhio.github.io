@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: '',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -53,9 +53,9 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'Youtube',
+      icon: '<i class="ri-youtube-line"></i>',
+      link: 'https://youtube.com/',
     },
     {
       id: '2',
