@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Yuk tidur, Jaga Kesehatan',
 
   // Layout
-  bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: '5351c491bf5e05c563ed1d7c24a36102', // Write here your API Key
@@ -65,27 +65,27 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Instagram',
+      icon: 'instagram',
+      link: 'https://instagram.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Movies',
+      icon: 'film',
+      link: 'https://bflix.ru/home',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'Music',
+      icon: 'music',
+      link: 'https://open.spotify.com',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Dribbble',
+      icon: 'dribbble',
+      link: 'https://dribbble.com/',
     },
   ],
 
@@ -135,46 +135,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'bookmark',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Awesome Piracy',
+          link: 'https://github.com/Igglybuff/awesome-piracy',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Vice Indonesia',
+          link: 'https://www.vice.com/id/topic/indonesia',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: '1337x',
+          link: 'https://1337x.to',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Cloudflare Zero Trust',
+          link: 'https://dash.cloudflare.com',
         },
       ],
     },
     {
-      icon: 'coffee',
+      icon: '',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'null',
+          link: 'null',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'null',
+          link: 'null',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'null',
+          link: 'null',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'null',
+          link: 'null',
         },
       ],
     },
