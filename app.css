@@ -115,7 +115,7 @@ body {
         border: 0.5px var(--fg);
         box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
         border-radius: 5px;
-        background: var(--sfg) var(--imgGoogle);
+        background: var(--cards) var(--imgGoogle);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: left 1vh top 50%;
