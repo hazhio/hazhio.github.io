@@ -119,12 +119,11 @@ body {
         background: var(--cards) var(--imgGoogle);
         background-size: 25px;
         background-repeat: no-repeat;
-        background-position: left 1vh top 50%;
+        background-position: left 2vh top 50%;
         width: 40vh;
-        height: 5vh;
+        height: 7vh;
         color: var(--fg);
         padding-left: 50px;
-        font-size: 14px;
         outline: none;
     }
 
@@ -366,6 +365,9 @@ body {
 /* M E D I A - Q U E R I E S */
 
 @media only screen and (max-width: 68.75em) {
+  input, select, textarea {
+    font-size: 16px;
+  }
   .container {
     grid-gap: 20px;
     padding: 40px;
