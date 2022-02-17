@@ -109,8 +109,8 @@ body {
 #searchtxt {
         margin-top:40px;
         margin-bottom: 30px;
-        border: 0.5px var(--fg) solid;
-        box-shadow: 0 5px 7px rgba(#000000, 0.35);
+        border: 0.5px var(--fg);
+        box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
         border-radius: 5px;
 
 
@@ -127,7 +127,7 @@ body {
         padding-left: 50px;
         font-size: 14px;
 
-        &:focus,&:active{
+      &:focus,&:active{
             outline: none;
             border-color: var(--accent);
         }
