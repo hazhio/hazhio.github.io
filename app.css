@@ -102,6 +102,7 @@ body {
   border: none;
   cursor: pointer;
   background-color: #00000000;
+  outline: none;
 }
 
 #phpaction{
