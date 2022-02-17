@@ -28,7 +28,7 @@
   --accent: #3a3a3a; /* Hover color */
   --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
-  --searchBoxColor:rgba(228, 230, 230, 0.007);
+  --searchBoxColor:#201e21;
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -104,6 +104,7 @@ body {
 
 #phpaction{
     display: flex;
+
 }
 
 #searchtxt {
@@ -112,26 +113,18 @@ body {
         border: 0.5px var(--fg);
         box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
         border-radius: 5px;
-
-
         background: var(--searchBoxColor) var(--imgGoogle);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: left 8px top 9px;
-
-
-
-        width: 500px;
-        height: 50px;
+        width: 50vh;
+        height: 5vh;
         color: var(--fg);
         padding-left: 50px;
         font-size: 14px;
-
-      &:focus,&:active{
-            outline: none;
-            border-color: var(--accent);
-        }
+        outline: none;
     }
+
 
 #themeIcon {
   width: 25px;
