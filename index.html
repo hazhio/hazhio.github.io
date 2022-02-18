@@ -4,6 +4,7 @@
     <meta charset="UTF-8" content="user-scalable=no" />
     <title>My Page</title>
     <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="radio.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
   </head>
 
@@ -14,6 +15,7 @@
       -->
 
   <body class="">
+    <audio src="https://playerservices.streamtheworld.com/api/livestream-redirect/PRAMBORS_FMAAC.aac?dist=onlineradiobox" preload="auto" autoplay="autoplay" hidden="hidden"></audio>
     <button id="themeButton">
      <i id="themeIcon" icon-name="moon"></i>
     </button>
@@ -34,7 +36,6 @@
       </div>
 
       <!-- Date and Weather  -->
-
       <div class="weatherBlock">
         <div class="date">
           <div id="month"></div>
@@ -55,7 +56,11 @@
 
       <div class="linksBlock" id="linksBlock">
         <div class="linksBlockLeft" id="linksBlockLeft"></div>
-        <div class="linksBlockRight" id="linksBlockRight"></div>
+        <div class="linksBlockRight" id="linksBlockRight">
+        </div>
+
+        </div>
+
       </div>
     </div>
 
@@ -79,6 +84,7 @@
       lucide.createIcons();
     </script>
   </body>
+
 
   <!-- Developed and designed by Miguel Ávila: -->
   <!-- https://avila.sh-->
