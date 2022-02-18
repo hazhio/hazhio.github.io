@@ -143,12 +143,12 @@ const CONFIG = {
           link: 'https://github.com/Igglybuff/awesome-piracy',
         },
         {
-          name: 'Vice Indonesia',
-          link: 'https://www.vice.com/id/topic/indonesia',
+          name: 'Gift for Deigner',
+          link: 'https://gift4designer.net',
         },
         {
-          name: '1337x',
-          link: 'https://1337x.to',
+          name: 'Freepik',
+          link: 'https://freepik.com',
         },
         {
           name: 'Cloudflare Zero Trust',
@@ -157,24 +157,24 @@ const CONFIG = {
       ],
     },
     {
-      icon: 'pin',
+      icon: 'image',
       id: '2',
       links: [
         {
-          name: 'null',
-          link: 'null',
+          name: 'Unsplash',
+          link: 'https://unsplash.com',
         },
         {
-          name: 'null',
-          link: 'null',
+          name: 'Pixbay',
+          link: 'https://pixabay.com',
         },
         {
-          name: 'null',
-          link: 'null',
+          name: 'Pexels',
+          link: 'https://www.pexels.com',
         },
         {
-          name: 'null',
-          link: 'null',
+          name: 'Burst by Shopify',
+          link: 'https://burst.shopify.com',
         },
       ],
     },
